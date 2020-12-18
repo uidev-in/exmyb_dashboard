@@ -11350,6 +11350,29 @@ body.sidebar-toggled footer.sticky-footer {
   border: 1px solid #bcc1cb;
 }
 
+
+/* Edit */
+.edit-section .section-title {
+  font-size: 1.25rem!important;
+  color: #252930;
+  font-weight: 600;
+}
+.section-title h3{
+  color: #252930;
+  font-weight: 600;
+}
+.app-card-settings {
+  font-size: 1rem;
+}
+.app-card {
+  position: relative;
+  background: #fff;
+  border-radius: .25rem;
+}
+.settings-form .form-label{
+  color: #000;
+  font-weight: bold;
+}
 /* ::-webkit-scrollbar {
     width: 10px;
 }
