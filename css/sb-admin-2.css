@@ -11373,6 +11373,47 @@ body.sidebar-toggled footer.sticky-footer {
   color: #000;
   font-weight: bold;
 }
+
+/* --Client table-- */
+.app-nav-tabs {
+  background: #fff;
+  padding: 0;
+}
+.app-nav-tabs .nav-link {
+  color: #000;
+  font-size: .875rem;
+  font-weight: bold;
+}
+.app-nav-tabs .nav-link.active {
+  color: #15a362;
+  border-bottom: 2px solid #82C424;
+}
+
+.app-card-orders-table .table th.cell {
+  border-color: #e7e9ed;
+  color: #000000;
+  vertical-align: middle;
+}
+.app-card-orders-table .table td.cell {
+  border-color: #e7e9ed;
+  color: #5d6778;
+  vertical-align: middle;
+}
+
+.badge {
+  display: inline-block;
+  padding: .35em .65em;
+  font-size: 0.75em;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
+}
+
+
 /* ::-webkit-scrollbar {
     width: 10px;
 }
