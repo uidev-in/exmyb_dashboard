@@ -9,19 +9,17 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Edit Business Details | ExMyb</title>
+    <title>Support</title>
 
-     <!-- Favicons -->
-     <link href="img/logo/favicon.png" rel="icon">
-     <link href="img/logo/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Favicons -->
+    <link href="img/logo/favicon.png" rel="icon">
+    <link href="img/logo/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link  href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
-
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.css" rel="stylesheet"/>
-	    
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.css" rel="stylesheet">
@@ -44,7 +42,7 @@
                 <!-- <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
                 </div> -->
-                <!-- <div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div> -->
+                <!-- <div class="sidebar-brand-text mx-3">Exmyb</div> -->
             </a>
 
             <!-- Divider -->
@@ -73,13 +71,13 @@
                     <span>Account</span>
                 </a>
                 <div id="collapseProfile" class="collapse" aria-labelledby="headingProfile"
-                    data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="personal.html">Personal</a>
-                        <a class="collapse-item" href="business.html">Business</a>
-                        <a class="collapse-item" href="#">Security</a>
-                    </div>
+                data-parent="#accordionSidebar">
+                <div class="bg-white py-2 collapse-inner rounded">
+                    <a class="collapse-item" href="personal.html">Personal</a>
+                    <a class="collapse-item" href="business.html">Business</a>
+                    <a class="collapse-item" href="#">Security</a>
                 </div>
+            </div>
             </li>
 
             <!-- Divider -->
@@ -101,7 +99,7 @@
 
             <!-- Nav Item - Support -->
             <li class="nav-item">
-                <a class="nav-link" href="support.html">
+                <a class="nav-link" href="#">
                     <i class="fas fa-fw fa-envelope"></i>
                     <span>Support</span></a>
             </li>
@@ -171,7 +169,7 @@
                                     </div>
                                     <div>
                                         <div class="small text-gray-500">December 7, 2019</div>
-                                        $290.29 has been deposited into your account!
+                                        ₹290.29 has been deposited into your account!
                                     </div>
                                 </a>
                                 <a class="dropdown-item d-flex align-items-center" href="#">
@@ -295,169 +293,69 @@
 
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
-
-                    <div class="d-sm-flex align-items-center justify-content-between m-4">
-                        <h1 class="h3 mb-0 exmyb-text-black font-weight-bold">Edit Business Details</h1>
+                    
+                    <!-- Page Heading -->
+                    <div class="d-sm-flex align-items-center justify-content-between m-2">
+                        <h1 class="h3 mb-0 exmyb-text-black font-weight-bold">Support</h1>
                         
                     </div>
-
                     <hr class="mb-4">
 
-                    <div class="row p-4 ">
-                        <div class="col-12 col-md-4 edit-section">
-                            <h3 class="section-title">Business</h3>
-                            <div class="section-intro">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius architecto fuga vel! Facilis voluptate laborum quaerat!</div>
-                        </div>
-                        <div class="col-12 col-md-8">
-                            <div class="app-card app-card-settings shadow-sm p-4">
-                                
-                                <div class="app-card-body">
-                                    <form class="settings-form">
-                                        <div class="mb-3">
-                                            <label  class="form-label">Registered Business Name</label>
-                                            <input type="text" class="form-control" id="setting-input-1" value="Expand My Business" required="">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label  class="form-label">Brand Name</label>
-                                            <input type="text" class="form-control" id="setting-input-2" value="ExMyb" required="">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label  class="form-label">Type of Company</label>
-                                            <select id="select" name="select" class="form-control custom-select">
-                                                <option value="1" selected>Private Limited Company</option>
-                                                <option value="2">Public Limited Company</option>
-                                                <option value="3">Sole Proprietorship</option>
-                                                <option value="4">Partnership</option>
-                                                <option value="5">Limited Liability Partnership (LLP)</option>
-                                                <option value="6">Liaison Office</option>
-                                                <option value="7">Subsidiary Company</option>
-                                                <option value="8">Unlimited Company</option>
-                                                <option value="9">Joint Hindu Family Business</option>
-                                              </select>
-                                         </div>
-                                        <div class="mb-3">
-                                            <label  class="form-label">Business Industry</label>
-                                            <input type="text" class="form-control" id="setting-input-3" value="Information Technology">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label  class="form-label">Last year turnover (per annum)</label>
-                                            <select id="select" name="select" class="form-control custom-select">
-                                                <option value="1" selected>0 - 10 lakh</option>
-                                                <option value="2">10 - 50 lakh</option>
-                                                <option value="3">50 lakh - 2 CR</option>
-                                                <option value="4">2 CR - 10 CR</option>
-                                                <option value="5">10 CR - 100 CR</option>
-                                                <option value="6"> Above 100 CR</option>
-                                              </select>
-                                        </div>
-                                        <div class="mb-3">
-                                            <label  class="form-label">Number of Employees</label>
-                                            <input type="text" class="form-control" id="setting-input-2" value="21" required="">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label  class="form-label">Number of clients till date</label>
-                                            <input type="text" class="form-control" id="setting-input-2" value="5000" required="">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label  class="form-label">Year of establishment</label>
-                                            <input type="text" class="form-control" id="datepicker" value="2017" required="">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label  class="form-label">Description</label>
-                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"  required="">
-                                                A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now. When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream.
-                                            </textarea>
-                                        </div>
-                                        <button type="submit" class="btn btn-success bg-gradient-success">Save Changes</button>
-                                    </form>
-                                </div><!--//app-card-body-->
-                                
-                            </div><!--//app-card-->
-                        </div>
-                    </div>
-
-                    <hr class="mb-4">
-
-                    <div class="row p-4 ">
-                        <div class="col-12 col-md-4 edit-section">
-                            <h3 class="section-title"> Address</h3>
-                            <div class="section-intro">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius architecto fuga vel! Facilis voluptate laborum quaerat!</div>
-                        </div>
-                        <div class="col-12 col-md-8">
-                            <div class="app-card app-card-settings shadow-sm p-4">
-                                
-                                <div class="app-card-body">
-                                    <form class="settings-form">
-                                        
-                                        <div class="mb-3">
-                                            <label  class="form-label"> Address 1</label>
-                                            <input type="text" class="form-control" id="setting-input-2" value=" NH - 8, Ambience Island, " required="">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label  class="form-label"> Address 2</label>
-                                            <input type="text" class="form-control" id="setting-input-2" value="DLF Phase 3, Sector 24" required="">
-                                        </div>
-                                        <div class="form-row">
-                                            <div class="form-group col-md-6">
-                                                <label class="form-label">City / Town</label>
-                                                <input type="text" class="form-control" id="" value="Gurugram" placeholder="Gurugram">
-                                              </div>
-                                              <div class="form-group col-md-6">
-                                                <label class="form-label">State / Province / Region</label>
-                                                <input type="text" class="form-control" id="" value="Haryana" placeholder="Haryana ">
-                                              </div>
-                                            
-                                        </div>
-                                        <div class="form-row">
-                                            <div class="form-group col-md-6">
-                                                <label class="form-label">Zip / Postal Code</label>
-                                                <input type="text" class="form-control" id="" value="122002" placeholder="122002">
-                                              </div>
-                                              <div class="form-group col-md-6">
-                                                <label class="form-label">Country</label>
-                                                <input type="text" class="form-control" id="" value="India" placeholder="India">
-                                              </div>
-                                            
-                                        </div>
-                                        
-                                        <button type="submit" class="btn btn-success bg-gradient-success">Save Changes</button>
-                                    </form>
-                                </div><!--//app-card-body-->
-                                
-                            </div><!--//app-card-->
-                        </div>
-                    </div>
-
-                    <hr class="mb-4">
-
-                    <div class="row p-4 ">
-                        <div class="col-12 col-md-4 edit-section">
-                            <h3 class="section-title">Identity</h3>
-                            <div class="section-intro">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius architecto fuga vel! Facilis voluptate laborum quaerat!</div>
-                        </div>
-                        <div class="col-12 col-md-8">
-                            <div class="app-card app-card-settings shadow-sm p-4">
-                                
-                                <div class="app-card-body">
-                                    <form class="settings-form">
-                                        <div class="mb-3">
-                                            <label  class="form-label">GST Number</label>
-                                            <input type="text" class="form-control" id="setting-input-1" value="22 XXXXXXXXXX 1z5" required="">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label  class="form-label">PAN Number</label>
-                                            <input type="email" class="form-control" id="setting-input-3" value="FBIPS80L" >
-                                        </div>
-                                        <button type="submit" class="btn btn-success bg-gradient-success">Save Changes</button>
-                                    </form>
-                                </div><!--//app-card-body-->
-                                
-                            </div><!--//app-card-->
-                        </div>
+                   
+                    <div class="col-md-8 col-md-offset-2">
+                        <form>
+                            <div class="form-group row">
+                              <label for="Subject" class="col-4 col-form-label">Subject <sup class="text-danger">*</sup></label> 
+                              <div class="col-8">
+                                <input id="Subject" name="Subject" type="text" class="form-control" required>
+                              </div>
+                            </div>
+                            <div class="form-group row">
+                              <label for="select" class="col-4 col-form-label">Purpose <sup class="text-danger">*</sup></label> 
+                              <div class="col-8">
+                                <select id="select" name="select" class="custom-select" required>
+                                  <option value="payment">Payment</option>
+                                  <option value="account">Account</option>
+                                  <option value="details">Update Details</option>
+                                </select>
+                              </div>
+                            </div>
+                            <div class="form-group row">
+                              <label for="Comment" class="col-4 col-form-label">Comment <sup class="text-danger">*</sup></label> 
+                              <div class="col-8">
+                                <textarea id="Comment" name="Comment" cols="40" rows="5" class="form-control" required></textarea>
+                              </div>
+                            </div> 
+                            <div class="form-group row">
+                                <div class="col-4"></div> 
+                                <div class="col-8">
+                                  <div class="custom-control custom-checkbox custom-control-inline">
+                                    <input name="checkbox" id="checkbox_0" type="checkbox" class="custom-control-input" value="receiveCall" checked required> 
+                                    <label for="checkbox_0" class="custom-control-label">Receive call from us.</label>
+                                  </div>
+                                </div>
+                              </div> 
+                              <div class="form-group row">
+                                <div class="col-4"></div> 
+                                <div class="col-8">
+                                  <div class="custom-control custom-checkbox custom-control-inline">
+                                    <input name="checkbox" id="checkbox_1" type="checkbox" class="custom-control-input" value="receiveEmail" checked required> 
+                                    <label for="checkbox_1" class="custom-control-label">Receive email from us.</label>
+                                  </div>
+                                </div>
+                              </div> 
+                            <div class="form-group row">
+                              <div class="offset-4 col-8">
+                                <button name="submit" type="submit" class="btn btn-primary bg-gradient-primary">Submit</button>
+                              </div>
+                            </div>
+                          </form>
+                          
                     </div>
 
                 </div>
                 <!-- /.container-fluid -->
+                
 
             </div>
             <!-- End of Main Content -->
@@ -512,16 +410,6 @@
 
     <!-- Custom scripts for all pages-->
     <script src="js/sb-admin-2.min.js"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.js"></script>
-	<script>
-        $("#datepicker").datepicker({
-		    format: "yyyy",
-		    viewMode: "years", 
-		    minViewMode: "years"
-		});
-    </script>
-
 
 </body>
 
